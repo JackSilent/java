@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: first-eureka-client
+
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8060/eureka/
