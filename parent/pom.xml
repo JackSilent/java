@@ -6,7 +6,12 @@
 
     <groupId>com.jack</groupId>
     <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../service-feign</module>
+        <module>../feign</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

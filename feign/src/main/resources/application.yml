@@ -1,9 +1,9 @@
+server:
+  port: 9001
+
 spring:
   application:
-    name: firstclient
-
-server:
-  port: 8070
+    name: feign
 
 eureka:
   instance:
