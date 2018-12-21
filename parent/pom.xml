@@ -11,6 +11,8 @@
     <modules>
         <module>../service-feign</module>
         <module>../feign</module>
+        <module>../eas-kingdee</module>
+        <module>../service-zuul</module>
     </modules>
 
     <properties>

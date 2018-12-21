@@ -1,9 +1,9 @@
 server:
-  port: 9002
+  port: 9005
 
 spring:
   application:
-    name: feign
+    name: eas-kingdee
 
 eureka:
   instance:
@@ -11,4 +11,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8060/eureka/
-
+feign:
+  hystrix:
+    enabled: true
