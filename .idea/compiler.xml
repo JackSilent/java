@@ -6,19 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bihu-autoclick" />
+        <module name="eas-kingdee" />
+        <module name="eureka-first-client" />
+        <module name="eureka-server" />
+        <module name="feign" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-server" target="1.8" />
-      <module name="eurekaserver" target="1.8" />
-      <module name="project-parent" target="1.8" />
+      <module name="bihu-autoclick" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bihu-autoclick" options="-parameters" />
+      <module name="eas-kingdee" options="-parameters" />
+      <module name="eureka-first-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
-      <module name="eurekaserver" options="-parameters" />
-      <module name="project-parent" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
     </option>
   </component>
 </project>

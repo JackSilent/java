@@ -1,0 +1,16 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: eas-kingdee
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8060/eureka/
+feign:
+  hystrix:
+    enabled: true

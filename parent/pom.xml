@@ -6,7 +6,18 @@
 
     <groupId>com.jack</groupId>
     <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../service-feign</module>
+        <module>../feign</module>
+        <module>../eas-kingdee</module>
+        <module>../service-zuul</module>
+        <module>../bi-autoclick</module>
+        <module>../bihu-autoclick</module>
+        <module>../bihu</module>
+        <module>../bihu-autoclick</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
