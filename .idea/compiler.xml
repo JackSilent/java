@@ -11,27 +11,24 @@
         <module name="eureka-server" />
         <module name="feign" />
         <module name="service-feign" />
+        <module name="service-ribbon" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EAS-Kingdee" target="1.8" />
-      <module name="service-ribbon" target="1.8" />
-      <module name="web-config" target="1.8" />
+      <module name="bihu-autoclick" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="EAS-Kingdee" options="-parameters" />
+      <module name="bihu-autoclick" options="-parameters" />
       <module name="eas-kingdee" options="-parameters" />
       <module name="eureka-first-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
-      <module name="parent" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
-      <module name="web-config" options="-parameters" />
     </option>
   </component>
 </project>

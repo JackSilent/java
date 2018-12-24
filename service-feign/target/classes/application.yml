@@ -1,4 +1,16 @@
 server:
+<<<<<<< HEAD
+  port: 8073
+
+spring:
+  application:
+    name: feign-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8060/eureka
+=======
   port: 9003
 
 spring:
@@ -11,3 +23,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8060/eureka/
+>>>>>>> 206069f89f41acfb1f4afe7c579b8d0f8ebaa959
