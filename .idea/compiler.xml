@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eas-kingdee" />
         <module name="eureka-first-client" />
         <module name="eureka-server" />
-        <module name="feign" />
-        <module name="service-feign" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bihu-autoclick" target="1.5" />
+      <module name="eas-kingdee" target="1.5" />
+      <module name="feign" target="1.8" />
+      <module name="service-feign" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

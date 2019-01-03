@@ -14,6 +14,8 @@
       <set>
         <option value="$PROJECT_DIR$/bi-autoclick/pom.xml" />
         <option value="$PROJECT_DIR$/bihu/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
       </set>
     </option>
   </component>
