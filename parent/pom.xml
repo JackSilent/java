@@ -11,12 +11,7 @@
     <modules>
         <module>../service-feign</module>
         <module>../feign</module>
-        <module>../eas-kingdee</module>
         <module>../service-zuul</module>
-        <module>../bi-autoclick</module>
-        <module>../bihu-autoclick</module>
-        <module>../bihu</module>
-        <module>../bihu-autoclick</module>
     </modules>
 
     <properties>
