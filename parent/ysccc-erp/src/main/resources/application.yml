@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ysccc-erp
+
+server:  port: 8709
+  
+eureka:  client:    service-url:      defaultZone:  http://localhost:8060/eureka/

@@ -1,71 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1aa618e-b6e3-4178-99d5-353be75b4966" name="Default Changelist" comment="">
+    <list default="true" id="b1aa618e-b6e3-4178-99d5-353be75b4966" name="Default Changelist" comment="代码合并">
+      <change afterPath="$PROJECT_DIR$/eureka-first-client/eureka-first-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/service-feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jack/ServiceFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/BihuException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/StartApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/entity/LoginJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/entity/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/url/Urls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/BiHuUrlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/UrlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/db/AbstractMongoDbUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/db/DBUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/db/MongoDbUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/http/BiHuUrlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/src/main/java/com/jack/utils/http/UrlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/META-INF/bihu-click.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/BihuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/StartApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/entity/LoginJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/entity/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/url/Urls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/BiHuUrlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/UrlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/db/AbstractMongoDbUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/db/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/db/MongoDbUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/http/BiHuUrlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bihu-click/target/classes/com/jack/utils/http/UrlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/src/main/java/com/jack/EasApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/src/main/java/com/jack/fall_back/SchedualServiceUserLoginHystricImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/src/main/java/com/jack/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/src/main/java/com/jack/web/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/target/classes/com/jack/EasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/target/classes/com/jack/fall_back/SchedualServiceUserLoginHystricImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/target/classes/com/jack/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eas-kingdee/target/classes/com/jack/web/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/jack/FeignApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/jack/service/FirstService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/jack/web/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/jack/feignApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/jack/service/FirstService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/jack/web/TestController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jack/FirstFeignApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jack/service/SchedualServiceHi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jack/service/StoreClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jack/web/FeignController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/META-INF/service-feign.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/jack/FeignApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/jack/FirstFeignApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/jack/service/SchedualServiceHi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/jack/service/StoreClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/jack/web/FeignController.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/parent/target/" />
@@ -84,17 +31,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/jack/EurekaServer.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="70">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jack/ServiceFeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-first-client/src/main/java/com/jack/FirstEurekaClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,8 +80,10 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/bihu-autoclick/pom.xml" />
         <option value="$PROJECT_DIR$/bihu-autoclick/src/main/java/com/jack/BihuApplication.java" />
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jack/ServiceFeignApplication.java" />
       </list>
     </option>
   </component>
@@ -119,9 +96,29 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
         <option name="lookForNested" value="true" />
+        <option name="useMavenOutput" value="false" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -129,13 +126,37 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -146,12 +167,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546480014342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546482704391" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bihu-autoclick" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,75 +186,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FirstFeignApplication">
-    <configuration name="BihuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jack.BihuApplication" />
-      <module name="bihu-autoclick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jack.EurekaServer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="feign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jack.FeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstEurekaClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-first-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jack.FirstEurekaClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service-feign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jack.FirstFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service-ribbon" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jack.RibbonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Spring Boot.FirstEurekaClient" />
-        <item itemvalue="Application.BihuApplication" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -246,17 +198,27 @@
       <updated>1545620636198</updated>
       <workItem from="1545620637832" duration="540000" />
       <workItem from="1545621205150" duration="68000" />
-      <workItem from="1546478332142" duration="1335000" />
+      <workItem from="1546478332142" duration="2630000" />
+      <workItem from="1546481585016" duration="1121000" />
     </task>
+    <task id="LOCAL-00001" summary="代码合并">
+      <created>1546479993363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546479993363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1943000" />
+    <option name="totallyTimeSpent" value="4359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -282,7 +244,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.09682299" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -294,54 +256,66 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码合并" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bihu-autoclick/pom.xml" />
     <entry file="file://$PROJECT_DIR$/bihu-autoclick/src/main/java/com/jack/BihuApplication.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-first-client/src/main/java/com/jack/FirstEurekaClient.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jack/FirstFeignApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/jack/EurekaServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="70">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-first-client/eureka-first-client.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/service-feign.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="132">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-first-client/src/main/java/com/jack/FirstEurekaClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="112">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jack/FirstFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jack/ServiceFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/jack/EurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="126">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -397,12 +371,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bihu-autoclick</last-edited>
+          <last-edited>service-feign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

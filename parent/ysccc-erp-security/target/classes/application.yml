@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ysccc-erp-security
+
+server:
+  port: 8720
+  
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8060/eureka/
+
+security:
+  oauth2:
+    client:
+      client-id: jack
+      client-secret: jacksecrit

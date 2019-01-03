@@ -10,8 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../service-feign</module>
-        <module>../feign</module>
         <module>../service-zuul</module>
+        <module>../service-feign</module>
+        <module>../service-feign</module>
+        <module>service-feign</module>
+        <module>ysccc-erp</module>
+        <module>ysccc-erp-security</module>
     </modules>
 
     <properties>
